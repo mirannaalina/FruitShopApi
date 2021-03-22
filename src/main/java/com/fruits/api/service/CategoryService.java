@@ -1,9 +1,11 @@
 package com.fruits.api.service;
 
 import com.fruits.api.api.v1.model.CategoryDTO;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public interface CategoryService {
 
 
